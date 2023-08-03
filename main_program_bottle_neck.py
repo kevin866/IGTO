@@ -1101,7 +1101,7 @@ def element_density_slided1(i,CP,nx,ny,nz,element_density,optimizer):
     mesh.points = CP
 # set the dimensions
     mesh.dimensions = [nx, ny, nz]
-    mesh.cell_arrays["volume"] =element_density
+    #mesh.cell_arrays["volume"] =element_density
 
     p = pv.Plotter(shape=(2,2))
 # XYZ - show 3D scene first
